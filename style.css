@@ -1,0 +1,96 @@
+
+
+/* 
+common styles
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* 
+menu style
+*/
+.head-part{
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    width: 1440px;
+    height: 677px;
+    background: #2D25A0;
+    padding: 0px;
+    margin: 0;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1161px;
+    height: 44px;
+    align-items: center;
+    padding: 0px;
+    margin:42px 123px 0 156px;
+    position: absolute;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 588px;
+    height: 24px;
+}
+.menu a{
+    margin: 0px 36px;
+}
+.log-in{
+    padding: 10px 36px;
+    background: #E02C6D;
+}
+.headings{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 153px 140px 86px 156px;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    height: 230px;
+    width: 485px;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: left;
+    color: #fff;
+}
+.title-link{
+    margin-top: 27px;
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.title-link a{
+    margin: 0px 8px;
+    padding: 10px 23px;
+}
+.star-player img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+}
