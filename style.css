@@ -55,13 +55,16 @@ menu style
     padding: 10px 36px;
     background: #E02C6D;
 }
-.headings{
+/* 
+banner
+*/
+.banner-area{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 153px 140px 86px 156px;
 }
-.headline{
+.banner-text{
     display: flex;
     flex-direction: column;
 }
