@@ -84,10 +84,17 @@ menu style
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    font-weight: 500;
+    
 }
-.title-link a{
+.title-link>a{
     margin: 0px 8px;
-    padding: 10px 23px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.fa-arrow-right{
+    display: inline-block;
+    margin-left:  8px;
 }
 .star-player img{
     width: 556.01px;
