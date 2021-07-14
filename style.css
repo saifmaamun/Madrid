@@ -9,6 +9,7 @@ common styles
 }
 body{
     font-family: 'Poppins', sans-serif;
+    width: 1440px;
 }
 a{
     color: #fff;
