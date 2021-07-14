@@ -204,16 +204,68 @@ newsteller
     justify-content: center;
     margin-bottom: 40px;
 }
+.news-link:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(109, 108, 108, 0.5);
+    transition: .5s;
+}
 .news-link{
-    color: black;
+    color: #000;
     font-size: 1.2em;
     padding: 15px 40px;
     letter-spacing: 1px;
-    background-color: red;
+    background-color:#fff;
     text-align: center;
-    
 }
+/* 
+Online shop
+*/
 
+
+.shop-now{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.kit-image img{
+    height: 320px;
+    width: 250px;
+    border-bottom: 5px solid blue;
+    border-radius: 5px;
+}
+.kit-details, .kit-price{
+    padding: 10px 0 10px 5px;
+    font-size: 20px;
+}
+.kit-price{
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.buy-button{
+    margin: 0;
+    padding: 5px 40px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.kit-price:hover, .buy-button{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(109, 108, 108, 0.5);
+    transition: .5s;
+}
 
 
 /* 
