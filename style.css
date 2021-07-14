@@ -20,7 +20,6 @@ a{
 menu style
 */
 .head-part{
-    position: absolute;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     width: 1440px;
@@ -103,4 +102,97 @@ banner
     width: 556.01px;
     height: 438px;
     margin-left: 102px;
+}
+
+/* 
+player profile part
+*/
+
+.container{
+    margin: 70px 210px 20px 180px;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.pro-image{
+    margin: 0 0 16px 0;
+}
+.pro-image img{
+    width: 300px;
+    height: 256px;
+}
+.pro-details{
+    width: 300px;
+    height: 154px;
+    margin: 0 0 10px 0;
+}
+.pro-details h1{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    left: calc(50% - 300px/2);
+}
+.pro-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+
+
+
+
+
+
+
+/* 
+footer style
+*/
+
+footer{
+    margin: 0 auto 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 483.87px;
+    height: 213px;
+}
+.club-icon{
+    width: 483.87px;
+    height: 110px;
+}
+
+.club-icon img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-media{
+    margin: 13px 0;
+    align-items: center;
+}
+.social-media a{
+    background: #969BAB;
+    margin: 0 14px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.social-media a i{
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    
 }
