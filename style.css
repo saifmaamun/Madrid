@@ -323,6 +323,35 @@ footer{
     
 }
 
+/* 
+transition effect
+*/
+/* .head-part:hover{
+    background-color: #2d25a086;
+    transition: .8s;
+} */
+.head-part:hover .title {
+    
+    transform: scale(1.3) skew(10deg, -15deg);
+    transition: .8s;
+}
+.head-part:hover .star-player {
+    transform: scale(1.3) skew(10deg, -15deg);
+    transition: .8s;
+}
+.head-part:hover .title-link {
+    transform: translate(130px, 70px) skew(10deg, -15deg) scale(1.3);
+    transition: .8s;
+}
+.head-part:hover .log-in {
+    transform: translate(100px, 0px);
+    transition: .8s;
+}
+.head-part:hover .menu{
+    transform: scale(1.3);
+    transition: .8s;
+}
+
 
 
 /* 
