@@ -150,7 +150,7 @@ player profile part
     margin-bottom: 5px;
 }
 .pro-details p{
-    /* font-size: 14px; */
+    font-size: 12px;
     color: #6C6C6C;
 }
 
@@ -368,7 +368,6 @@ for mobile device
     }
     body{
         width: 320px;
-        border: 1px solid red;
     }
     .headpart{
         width: 100%;
@@ -392,14 +391,12 @@ for mobile device
     .title{
     width: 278px;
     height: 138px;
-    /* margin: 112px 66px 30px 16px; */
     }
     .title h1{
         font-weight: bold;
         font-size: 36px;
         line-height: 50px;
         text-align: left;
-        /* margin: 112px 66px 30px 16px; */
         text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
     }
     .title-link{
@@ -436,13 +433,14 @@ for mobile device
         flex-direction: column;
         width: 280px;
         height: 550px;
-        
-        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-        
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);   
     }
     .pro-image img{
         width: 250px;
         height: 380px;
+    }
+    .details{
+        font-size: 12px;
     }
     .news{
         margin: 165px auto 40px ;
